@@ -10,5 +10,8 @@ public class LinkedListDemo {
         list.insert(1, 0);
         System.out.println("new list");
         list.printList();
+        list.reverse();
+        System.out.println("reversed list");
+        list.printList();
     }
 }
